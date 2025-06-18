@@ -1,4 +1,6 @@
 fastapi
+pydantic
+requests
 uvicorn
 openai
 chromadb
