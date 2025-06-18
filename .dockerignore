@@ -1,0 +1,8 @@
+__pycache__/
+*.pt
+*.jpg
+*.png
+*.mp4
+*.zip
+images/
+tds_chroma_db/  # if not needed at build
