@@ -1,0 +1,7 @@
+# render.yaml
+services:
+  - type: web
+    name: tds-virtual-ta
+    env: docker
+    plan: free
+    
