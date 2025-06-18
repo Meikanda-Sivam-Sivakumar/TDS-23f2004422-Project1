@@ -1,12 +1,11 @@
 import os
-import dotenv
+
 from openai import OpenAI
 from sentence_transformers import SentenceTransformer
 import numpy as np
 from PIL import Image
 
 # Load environment variables
-dotenv.load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_KEY"), base_url="https://aipipe.org/openai/v1")
 clip_model = SentenceTransformer("clip-ViT-B-32")
