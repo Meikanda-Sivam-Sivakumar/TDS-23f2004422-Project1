@@ -27,7 +27,7 @@ app.add_middleware(
 # Load ChromaDB
 CHROMA_DIR = "./tds_chroma_db"
 chroma_client = chromadb.PersistentClient(path=CHROMA_DIR)
-collection = chroma_client.get_collection("tds_multimodal")
+collection = chroma_client.get_collection("tds_multimodal_context")
 
 # Request schema
 class AskRequest(BaseModel):
