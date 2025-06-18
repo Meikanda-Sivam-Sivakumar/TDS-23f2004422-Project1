@@ -21,7 +21,7 @@ def get_openai_text_embedding(text: str, max_chars: int = 7000):
         print("⚠️ Text embedding error:", e)
         return None
 
-def get_hf_clip_image_embedding(image: Image.Image):
+def get_clip_image_embedding(image: Image.Image):
     if HF_TOKEN is None:
         print("⚠️ HF_TOKEN not set")
         return None
