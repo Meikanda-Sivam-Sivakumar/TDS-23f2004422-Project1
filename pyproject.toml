@@ -1,0 +1,16 @@
+[project]
+name = "final-tds-p1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai",
+    "flask",
+    "chromadb",
+    "sentence-transformers",
+    "pytesseract",
+    "Pillow",
+    "fastapi>=0.115.9",
+    "uvicorn>=0.34.3",
+]
