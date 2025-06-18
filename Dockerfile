@@ -2,7 +2,7 @@
 FROM python:3.10-slim
 
 # Set working directory
-WORKDIR /app
+WORKDIR /
 
 # System packages needed for PIL and CLIP
 RUN apt-get update && apt-get install -y \
